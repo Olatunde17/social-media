@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook landing page</title>
+</head>
+<style>
+header{
+background-color: rgb(33, 61, 146);
+} 
+body{
+    background-color: lightgrey;
+}
+#facebook{
+    color: white;
+    display: inline;
+    padding-right: 26cm;
+}
+#login{
+    background-color:royalblue;
+    color: white;
+}
+a{
+    color: blue;
+}
+#its{
+    font-family: Georgia, serif;
+}
+#birthday, #gender{
+    color: rgb(48, 42, 42);
+}
+#signup{
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+#mobile, #password{
+    padding-right: 14em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#first, #surname{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.3em;
+}
+select{
+    padding-right: 2em;
+}
+img{
+    float: left;
+    padding-top: 5em;
+    height: 350px;
+    width: 600px;
+}
+</style>
+<body>
+<header>
+    <h1 id="facebook">facebook</h1>
+    <a href="" id="login">Log in to Existing Account</a>
+</header>    
+
+<main>
+    <img src="images/seul.png">
+    <h1>Create a new account</h1>
+    <p id="its">It's quick and easy</p>
+    <input id="first" type="text" placeholder="First name"> <input id="surname" type="text" Placeholder="Surname">
+    <p><input id="mobile" type="text" placeholder="Mobile number or Email Address"></p>
+    <p><input id="password" type="text" placeholder="New Password"></p>
+    <label id="birthday"><b>Birthday</b></label>
+    <br><input type="date">
+        
+    <p id= "gender"><b>Gender</b></p>
+    <label><input type="radio" id="female"><b>Female</b></label>
+    <label><input type="radio" id="male"><b>Male</b></label>
+    <label><input type="radio" id="custom"><b>Custom</b></label>
+    <p>By clicking Sign Up, you agree to our <a href =""> Terms Data Policy</a> and <a href ="">Cookie Policy.</a>
+    You may receive SMS notification from us and can opt put anytime</p>
+    <span id="signup" >Sign Up</span>
+</main>
+
+
+</body>
+</html>
